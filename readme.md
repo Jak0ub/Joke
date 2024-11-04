@@ -1,34 +1,31 @@
-## FUNGUJE POUZE NA WINDOWS
+## WORKS ONLY ON WINDOWS
 
 ## SHA-256
-```SHA-256
+SHA-256
+```
 170065E873947F070611F1DCA719122B79A289C23E30EE94DA448262ECB4B15C
 ```
+> ℹ️ **Recommendation:**
+> If you are unsure whether Python is present on the victim's computer, you can use PyInstaller to create an .exe file from a .py file.
 
-> ℹ️ **Doporučení:**
-> Pokud si nejste jisti přítomností pythonu na počítači oběti, lze pomocí pyinstaller z .py souboru udělat .exe soubor
+## Description
+Each time the PC is turned on, the file troll.vbs will start, and it can only be turned off using taskkill.
 
-
-## Popis
-Po každém zapnutí pc se zapne soubor troll.vbs a lze ho vypnout jen pomocí `taskkill` 
-
-
-> ℹ️ **Informace:**
-> Lze VBS proces ukončit i pomocí souboru na tomto githubu. Na mém profilu v cestě Main\batch\custom_taskkill\ je soubor pro ukončování procesů Vámi specifikovanými
-
-```batch
+> ℹ️**Information:**
+> The VBS process can also be terminated using a file available on this GitHub. On my profile, there is a file for terminating processes specified by you.
+```
 taskkill /IM "wscript.exe" -F
 ```
-> ⚠️ **Varování:**
-> Budou třeba administrátorská oprávnění
+> ⚠️ **Warning:**
+> Administrator privileges will be required by the victim.
 
 ## Python to Executable
 
 ```
 pip install pyinstaller
 ```
-`Instalace Pyinstaller`
+`Installing PyInstaller`
 ```
-pyinstaller --onefile soubor.py
+pyinstaller --onefile file.py
 ```
-`.Exe Soubor se nyní nachází v \dist\soubor.exe`
+`The .Exe file is now located in \dist\file.exe`
