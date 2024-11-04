@@ -5,6 +5,7 @@ del "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\troll.vbs"
 ```
 > ⚠️ **Warning:**
 > Administrator privileges will be required for deletion, so run the cmd as administrator
+> 
 `Your system partition letter may vary`
 ## SHA-256
 SHA-256
