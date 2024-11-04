@@ -10,7 +10,7 @@ del "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\troll.vbs"
 ## SHA-256
 SHA-256
 ```
-170065E873947F070611F1DCA719122B79A289C23E30EE94DA448262ECB4B15C
+0F933B9EF86980E02A102AA3CEEBCD0B58102DAD09925ADE6930CA1E1A201637
 ```
 > ℹ️ **Recommendation:**
 > If you are unsure whether Python is present on the victim's computer, you can use PyInstaller to create an .exe file from a .py file.
