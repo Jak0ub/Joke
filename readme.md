@@ -1,5 +1,11 @@
 ## WORKS ONLY ON WINDOWS
-
+## How to delete the program after activation
+```
+del "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\troll.vbs"
+```
+> ⚠️ **Warning:**
+> Administrator privileges will be required for deletion, so run the cmd as administrator
+`Your system partition letter may vary`
 ## SHA-256
 SHA-256
 ```
@@ -10,6 +16,7 @@ SHA-256
 
 ## Description
 Each time the PC is turned on, the file troll.vbs will start, and it can only be turned off using taskkill.
+
 
 > ℹ️**Information:**
 > The VBS process can also be terminated using a file available on this GitHub. On my profile, there is a file for terminating processes specified by you.
