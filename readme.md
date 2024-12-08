@@ -21,7 +21,8 @@ Each time the PC is turned on, the file troll.vbs will start, and it can only be
 
 
 > ℹ️**Information:**
-> The VBS process can also be terminated using a file available on this GitHub. On my profile, there is a file for terminating processes specified by you.
+> The VBS process can also be terminated using a file available [on this GitHub](https://github.com/Jak0ub/Process-Killer)
+
 ```
 taskkill /IM "wscript.exe" -F
 ```
